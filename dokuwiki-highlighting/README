@@ -7,5 +7,4 @@ Open "theme.css" and add the following line to the "IMPORTS" section:
 
 Save file and refresh your flyspray page (Ctrl+R, F5).
 
-Alternatively you can just copy the content of "dokuwiki.css" to the end of your "theme.css"-file.
-It will perform faster.
+Alternatively you can just copy the content of "dokuwiki.css" to the end of your "theme.css"-file. It will perform better.
