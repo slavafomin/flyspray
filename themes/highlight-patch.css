@@ -1,0 +1,178 @@
+/* Dokuwiki {{{ */
+
+pre.code {
+	padding: 15px;
+	background-color: #232125;
+	color: #eee;
+	font-size: 13px;
+}
+
+.code a {
+	text-decoration:none;
+}
+
+div#taskdetailstext h1,.commenttext h1 {
+	border-bottom:dotted 1px black;
+}
+
+div#taskdetailstext h2, .commenttext h2 {
+	border-bottom:dotted 1px black;
+	padding-left:0.2em;
+	margin:1em 0.5em 0.5em;
+}
+
+div#taskdetailstext h3, .commenttext h3 {
+	padding-left:0.2em;
+	margin:1em 1.5em 0;
+}
+
+
+div#taskdetailstext h4, div.preview h4, .commenttext h4,div.preview h5,div#taskdetailstext h5, .commenttext h5 {
+	font-size:1em;
+	padding-left:0.3em;
+	margin:1em 2.5em 0;
+}
+
+div.level2 {
+	margin-left:1em;
+}
+
+div.level3 {
+	margin-left:2em;
+}
+
+div.level4,div.level5 {
+	margin-left:3em;
+}
+
+/* inline tables */
+table.inline {
+	display:table !important;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+table.inline th {
+	padding: 3px;
+	border: 1px solid #8cacbb;
+	background-color: #dee7ec;
+}
+
+table.inline td {
+	padding: 3px;
+	border: 1px solid #8cacbb;
+	background:#ffffff;
+}
+
+.leftalign{
+	text-align:left;
+}
+
+.centeralign{
+	text-align:center;
+}
+
+.rightalign{
+	text-align:right;
+}
+
+.interwiki,.urlextern {
+	padding-left:17px;
+	background:url(link_icon.gif) no-repeat;
+}
+
+.urlextern {
+	background-image:url(link_icon.gif);
+}
+
+.fn_top {
+	font-size:0.8em;
+	vertical-align:top;
+}
+
+.footnotes {
+	font-size:0.8em;
+	border-top:solid 1px #ccc;
+}
+
+blockquote {
+	border:dotted 1px gray;
+	border-left: 2px solid #8cacbb;
+	padding:0 3px 0 0.3em;
+	margin-left: 0.5em;
+	background:white;
+}
+
+blockquote p  {
+	padding:0;
+}
+
+blockquote blockquote {
+	border:0;
+	border-left: 2px solid #8cacbb;
+}
+
+.search_hit {
+	background:#FF9;
+}
+
+.fade {
+	color:gray;
+}
+
+.code .es0 {
+	color: #009;
+	font-weight: 700;
+}
+
+.code .kw1 {
+	color: #FF8400;
+}
+
+.code .kw3 {
+	color: #B729D9;
+}
+
+.code .me0 {
+	color:#060;
+}
+
+.code .nu0 {
+	color:#1299DA;
+}
+
+.code .re4 {
+	color:#099;
+}
+
+.code .sc0 {
+	color: #0bd;
+}
+
+.code .sc1 {
+	color: #db0;
+}
+
+.code .sc2 {
+	color: #090;
+}
+
+.code .st0 {
+	color: #56DB3A;
+}
+
+.code .co1,.code .co2,.code .coMULTI {
+	color: #777;
+	font-style:italic;
+}
+
+.acronym {
+	cursor: help;
+}
+
+em.u {
+	text-decoration: underline;
+	font-style: normal;
+}
+
+/* }}} */
