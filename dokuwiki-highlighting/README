@@ -1,0 +1,11 @@
+Provided CSS-file styles the syntax-highlighting of dokuwiki code for the flyspray.
+
+Place "dokuwiki.css" at your theme directory, e.g. at "/themes/CleanFS/".
+
+Open "theme.css" and add the following line to the "IMPORTS" section:
+@import url("dokuwiki.css");
+
+Save file and refresh your flyspray page (Ctrl+R, F5).
+
+Alternatively you can just copy the content of "dokuwiki.css" to the end of your "theme.css"-file.
+It will perform faster.
